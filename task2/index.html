@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Landing Page</h1>
+    <p>Welcome to my website</p>
+</header>
+
+<section class="hero">
+    <h2>Build Your Future with Web Development</h2>
+    <p>Learn HTML, CSS, and JavaScript easily.</p>
+    
+    <!-- Clickable Button -->
+    <button onclick="scrollToFeatures()">Get Started</button>
+</section>
+
+<section class="features" id="features">
+    <div class="box">
+        <h3>Easy Learning</h3>
+        <p>Simple and beginner-friendly content.</p>
+    </div>
+
+    <div class="box">
+        <h3>Responsive Design</h3>
+        <p>Works on mobile and desktop.</p>
+    </div>
+
+    <div class="box">
+        <h3>Fast Performance</h3>
+        <p>Optimized for speed.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nishma | Landing Page</p>
+</footer>
+
+<!-- JavaScript -->
+<script>
+function scrollToFeatures() {
+    document.getElementById("features").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+</script>
+
+</body>
+</html>
